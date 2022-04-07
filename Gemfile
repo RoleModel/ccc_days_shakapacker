@@ -33,6 +33,10 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'rolemodel_rails', github: 'RoleModel/rolemodel_rails'
+
+gem 'slim'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -63,3 +67,4 @@ group :test do
 end
 
 gem "shakapacker", "= 6.2"
+gem "slim"
